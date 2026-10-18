@@ -18,8 +18,7 @@ A new Flutter plugin project.
   s.dependency 'Flutter'
   s.dependency 'GoogleMaps'
   s.static_framework = true
-  s.platform = :ios, '11.0'
+  s.platform = :ios, '14.0'
 
-  # Flutter.framework does not contain a i386 slice.
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 end

@@ -1,7 +1,9 @@
 name: google_map_dynamic_key
 description: "Add Google Maps API key dynamically"
-version: 1.0.1
-homepage: https://github.com/umkithya/google_map_dynamic_key
+version: 1.0.2
+homepage: https://github.com/ThearyCoding/google_map_dynamic_key
+repository: https://github.com/ThearyCoding/google_map_dynamic_key
+issue_tracker: https://github.com/ThearyCoding/google_map_dynamic_key/issues
 
 environment:
   sdk: ">=3.2.3 <4.0.0"
